@@ -1,6 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Package for analyzing multi-electrode data with a Markov-Ising model.  %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+## Package for analyzing multi-electrode data with a Markov-Ising model. 
 
 This package corresponds to the paper: 
 
@@ -33,7 +31,7 @@ the following:
 
 The program "BatchOctestGlauber" is performing all these steps. 
 
-# 1) How to use this program:
+## 1) How to use this program:
 
 - The best is probably to first have a look on the code which  
   reproduces the figure 1. First launch "i2mPath" to set all the  
@@ -47,7 +45,7 @@ The program "BatchOctestGlauber" is performing all these steps.
 - /Surrogate/Surrogate.m will generate some surrogate data having the  
   same statistics than the ones captured by the model.
 
-# 2) The code is organized in different directories:
+## 2) The code is organized in different directories:
 
 - Common: The core of the program. Contains all the functions needed to  
   fit the model to mean and correlations measured from the data.  
